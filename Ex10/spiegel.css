@@ -1,0 +1,33 @@
+.header{
+    background-color:rgb(230,68,21);
+    height: 80px;
+}
+.logo
+{
+    padding-left: 0%;
+}
+.subheading
+{
+    color:#e64415;
+}
+h1
+{
+    font-size: 44px;
+}
+.date
+{
+    color:#807e7c
+}
+.article
+{
+    background-color: rgb(233, 241, 245);
+    text-wrap: 20px;
+}
+figcaption{
+    font-size:14px;
+    color:rgb(128, 126, 124)
+}
+.color
+{
+    color:#bbb9b7
+}

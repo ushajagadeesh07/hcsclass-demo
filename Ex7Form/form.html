@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in  HTML</title>
+</head>
+<body>
+  <h1>Create a new account</h1>  
+  <form id="newaccountform" action="processform.aspx">
+    <p><label for="name">Name:</label>
+    <input type="text" name="name"></p>
+    <p><label for="address">Address:</label>
+    <input type="text"name="address"></p>
+    <p><label for="postalcode">Postal code:</label>
+    <input type="text" name="postalcode" id="postalcode">
+    <input type="text" id="postalcity" name="postalcity">
+    </p>
+    <p>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">--Select a Country--</option>
+            <optgroup label="Europe">
+                <option value="de">Germany</option>
+                <option value="hr">Crotia</option>
+                <option value="pt">Portugal</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="in">India</option>
+                <option value="th">Thailand</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>Gender:<input type="radio" id="female" name="gender" value="F" checked>
+    <label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="M" >
+    <label for="male">Male</label>
+    <input type="radio" id="other" name="gender" value="O" >
+    <label for="other">Other</label>
+    <input type="text" id="otherGender" disabled>
+    </p>
+    <p>Hobbies:</p>
+    <input type="checkbox" value="painting" id="painting" name="painting">
+    <label for="painting">Painting</label>
+    <input type="checkbox" value="cooking" id="cooking"name="cooking">
+    <label for="cooking">Cooking</label>
+    <input type="checkbox" value="reading book" id="reading book" name="reading book">
+    <label for="reading book">Reading Book</label>
+    <p><input type="submit" value="Create account"></p> 
+  </form>
+</body>
+</html>

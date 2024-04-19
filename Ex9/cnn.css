@@ -1,0 +1,74 @@
+html {
+    background-color: white;
+}
+body {
+    font-family: Roboto, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+}
+p {
+    line-height: 150%;
+}
+h1 {
+  font-size: 250%;
+}
+/* rem = root ems */
+h2 {
+    font-size: 1.5rem; /* 16px x 1.5 */
+}
+figure {
+    text-align: center;
+    margin: 0;
+}
+figcaption {
+    margin-top: 10px;
+}
+.textLink {
+    color: inherit;
+}
+.textLink:hover {
+    color: #9b9b9b;
+}
+.menu {
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+}
+.menu a:hover {
+    text-decoration: underline overline;
+    color: #aaa;
+}
+
+.author_time
+{
+    font-size: 12px;
+    color: rgb(155,155,155);
+}
+
+
+.relatedContent {
+    text-align: center;
+    font-size: 2rem; /* 32px, 200%, 2em */
+    color: black;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.realtedContentHighlighter {
+    color: #aaa;
+}
+
+
+.separator {
+    height: 1px;
+    border: none;
+    background-color: rgb(128, 128, 128);
+}
+.searchField {
+    width: 100%;
+    height: 30px;
+}

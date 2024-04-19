@@ -1,0 +1,33 @@
+.menu,.menu2 {
+ list-style-type: none;
+ padding:0;
+ margin:0;
+ text-align:center;
+ border-bottom:1px solid black;
+}
+
+.menu >li{
+    display:inline-block;
+}
+.menu a,.menu2 a{
+    text-decoration: none;
+    color:inherit;
+    padding:10px 20px;
+    display:inline-block;
+}
+.menu a:hover, .menu a:hover, .menu3 a:hover
+{
+    background-color: brown;
+    color:white;
+}
+menu2{
+    overflow:hidden;
+}
+.menu2 > li{
+    float:left;
+}
+.menu3
+{
+    display: flex;
+    justify-content: center;
+}
